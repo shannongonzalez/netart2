@@ -1,0 +1,53 @@
+/* Ref:  http://www.w3schools.com/css/css_syntax.asp */
+body, html{
+	height: 100%;
+	width: 100%;
+}
+
+
+body { /* General style rules for the body section */
+	background-color:lightpink;
+	text-align: center;}
+	p {color: black;}
+h1 {color: purple;}
+h2 {color: aqua;}
+h3 { /* Matches elements with h3 tag */
+	color: white;}
+h4 {color: orange;}
+
+#div1 { /* Matches element with id=SimpleDiv */
+/*background-color: gray; off*/
+	background-color: gray;
+
+	color: hotpink;
+
+	border-style: solid groove;
+  border-width: 5px;
+	border-color: aqua;
+
+	margin: 5%;
+	padding: 6px;
+	}
+
+#div2{
+		background-color: purple;
+		margin: 5%;
+		padding: 6px;
+		float: left;
+		width: 20%;
+	}
+
+#div3{
+		background-color: yellow;
+		margin: 5%;
+		padding: 6px;
+		float: right;
+		width: 50%;
+	}
+
+#div4{
+		background-color: gray;
+		margin: 5%;
+		padding: 6px;
+		clear:both;
+	}
